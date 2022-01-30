@@ -5,61 +5,164 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
     <script src="http://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <title> My Portfolio</title>
 </head>
 <body>
-    <section>
-        <!-- navigation -->
-        <nav>
-            <!-- logo -->
-            <a href="#" class="logo">Okanlomo Solutions</a>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="fw-bold">
+              Okanlomo Solutions
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <ul class="navbar-nav">
+              <li class="nav-item" >
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul> 
+          </div>
+        </div>
+      </nav>
+    
 
-            <!-- menu -->
-            <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-                <li><a href="#services">Services</a></li>
-            </ul>
-        </nav>
-
+    <section class="model-box">  
         <!-- text -->
         <div class="text-container">
             <p>I Love to Design</p>
-            <p> I'M Hammed Kolawole</p>
+            <p class="ham"> I'M Hammed Kolawole</p>
             <p> Software Engineer <br /> I build things for the Web</p>
-            <button class="hire-btn">Hire me</button>
-            <button class="down-cv">Download CV</button>
+            
         </div>
         <!-- model --------------------- -->
-        <img src="./images/alao.png" class="model" alt="model">
+        <img src="./images/alao.PNG" class="model" alt="model">
     </section>
 
         <!-- about section -->
-        <div class="about-container" id="about">
-            <div class="imageframe">
-                <img src="./images/alao.PNG">
-            </div>
-            <!-- about text -->
-            <div class="about-text">
-                <p>About Me</p>
-                <p>Web Developer</p>
-                <p> Hello, My name is Hammed, I am a Developer and also a Designer. I have just over a year of experience as a junior software engineer with First Technology. </p>
-                <p>Contact me for your project. </p>
-                <!-- button -->
-                <button>Hire Me</button>
-                <button>Download CV</button>
+        <div id="about">
+            <div class="containerr">
+                <h2 class="section-heading" data-outline="about">About</h2>
+                <div class="wrapper">
+                    <div class="left">
+                        <div class="card">
+                            <div class="img">
+                                <img src="./images/alao.PNG" alt="">
+                            </div>
+                             <p class="card-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis vel rem soluta numquam, quidem error minima dignissimos quaerat et eligendi culpa dolore voluptatum esse odio temporibus earum sed nam quia.</p>
+                             <h3 class="card-name">Software Engineer</h3>
+                             <p class="card-sub-title">CEO of my company</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <p class="subheading">HI! This is OKANLOMO</p>
+                        <h2 class="slogan">Web Designer</h2>
+                        <p class="right-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur possimus qui, accusamus minus tempora non dolore fugiat, mollitia magnam ea animi corporis molestias. Nostrum quis adipisci iste fuga at!</p>
+                        <div class="buttons">
+                            <a href="./resume.txt" class="primary-btn" download>Download Resume</a>
+                            <a href="#" class="primary-btn outline">Hire Me</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
+
     
+        <div class="projects">
+            <div class="container">
+                <h2 class="sectiion-heading" data-outline="Projects">Projects</h2>
+                <div class="all-items">
+                    <div class="item">
+                        <div class="left">
+                            <div class="img">
+                                <img src="./images/website-1.png" alt="project" >
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h2 class="project-title">Lorem ipsum dolor sit.</h2>
+                            <div class="project-sub-title">Lorem ipsum dolor sit.</div>
+                            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia consequuntur reiciendis id blanditiis a nisi, sed repellendus autem expedita excepturi tempore, laboriosam aliquid repudiandae soluta labore aperiam mollitia non!</p>
+                            <div class="buttons">
+                                <a href="#" class="primary-btn">Know more</a>
+                                <a href="#" class="primary-btn outline external-link"><span>Preview</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="left">
+                            <div class="img">
+                                <img src="./images/website-2.png" alt="project" >
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h2 class="project-title">Lorem ipsum dolor sit.</h2>
+                            <div class="project-sub-title">Lorem ipsum dolor sit.</div>
+                            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia consequuntur reiciendis id blanditiis a nisi, sed repellendus autem expedita excepturi tempore, laboriosam aliquid repudiandae soluta labore aperiam mollitia non!</p>
+                            <div class="buttons">
+                                <a href="#" class="primary-btn">Know more</a>
+                                <a href="#" class="primary-btn outline external-link"><span>Preview</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="item">
+                        <div class="left">
+                            <div class="img">
+                                <img src="./images/website-3.png" alt="project" >
+                            </div>
+                        </div>
+                        <div class="right">
+                            <h2 class="project-title">Lorem ipsum dolor sit.</h2>
+                            <div class="project-sub-title">Lorem ipsum dolor sit.</div>
+                            <p class="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia consequuntur reiciendis id blanditiis a nisi, sed repellendus autem expedita excepturi tempore, laboriosam aliquid repudiandae soluta labore aperiam mollitia non!</p>
+                            <div class="buttons">
+                                <a href="#" class="primary-btn">Know more</a>
+                                <a href="#" class="primary-btn outline external-link"><span>Preview</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                </div>
+            </div>
+        </div>
+
+
         <!-- services------------------------ -->
         <div class="services" id="services">
-            <div class="services-text">
-                <p>Services</p>
-                <p>Services required</p>
-                <p>If you want to make software for your business contact me. Email: adediranhammed51@gmail.com, 08068563333</p>
-            </div>
+                <h2>Services</h2>
             <!-- box -------------------------->
             <div class="box-container">
                 <!-- --------------- -->
@@ -85,14 +188,10 @@
                 </div>
             </div>
         </div>
-    <!-- contact me--------------------- -->
-    <div class="contact-me" id="contact">
-        <p>If You Have Any Project In Your Mind</p>
-        <button>Contact Me</button>
-    </div>
+    
     <!-- footer----------------- -->
     <footer>
-        <p>Going to the Internet</p>
+        <p>Contact US Today</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aspernatur eaque, saepe tempora soluta libero neque natus accusamus, nobis itaque porro mollitia reprehenderit excepturi a consequuntur dolorem nesciunt modi corporis?</p>
         <!-- social---------------------- -->
         <div class="social-icons">
@@ -106,7 +205,7 @@
 
         </div>
         <!-- copyright--------------- -->
-        <p>Okanlomo &copy; 2021</p>
+        <p class="copy">Okanlomo &copy; 2022</p>
     </footer>
     <!-- attached social bar------------ -->
     <div class="a-social-b">
@@ -116,6 +215,7 @@
             <a href="#"><i class="fab fa-youtube"></i></a>
             <a href="#"><i class="fab fa-github"></i></a>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
