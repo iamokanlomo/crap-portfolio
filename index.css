@@ -58,8 +58,8 @@ section{
     position: absolute;
     left: 13%;
     top: 42%;
-    transform: translate(-13%, -42%); 
-} 
+    transform: translate(-13%, -42%);
+}
 
 .text-container button{
     width: 130px;
@@ -116,7 +116,7 @@ button:active{
     position: absolute;
     left: 55%;
     bottom: 90px;
-    opacity: .4;       
+    opacity: .4;
 }
 }
 @media only screen and (max-width: 500px){
@@ -125,7 +125,7 @@ button:active{
         width: 55%;
         position: absolute;
         left: 55%;
-        opacity: .4;       
+        opacity: .4;
     }
     .model-box .text-container p{
         z-index: 1;
@@ -137,12 +137,12 @@ button:active{
             width: 60%;
             position: absolute;
             left: 55%;
-            opacity: .4;       
+            opacity: .4;
         }
         .model-box .text-container .ham{
             font-size: 23px;
         }
-        
+
         }
 
 
@@ -150,7 +150,7 @@ button:active{
 #about{
     background-image: url('./images/img1.jpg');
     background-repeat: repeat;
-    padding: 5rem 0;  
+    padding: 5rem 0;
     min-height: 600px;
     /* margin-bottom: 5rem; */
 }
@@ -159,7 +159,7 @@ button:active{
     align-items: center;
     justify-content: center;
     gap: 3rem;
-} 
+}
 #about .left{
     padding: 2rem;
     text-align: center;
@@ -182,7 +182,7 @@ button:active{
     object-fit:cover;
     width: 90px;
     height: 100px;
-    
+
 }
 #about .left .card .card-desc{
     color: #302e2e;
@@ -310,15 +310,15 @@ button:active{
 .projects .item .right .project-title{
     font-size: 2.5rem;
     font-family: serif;
-    margin-bottom: 1rem;  
+    margin-bottom: 1rem;
 }
 .projects .item .right .project-sub-title{
     font-size: 1.6rem;
-    margin-bottom: 2rem;  
+    margin-bottom: 2rem;
 }
 .projects .item .right .project-desc{
     color: #8f8f8f;
-    margin-bottom: 3rem;  
+    margin-bottom: 3rem;
 }
 .projects .item .right .buttons{
     display: flex;
@@ -352,7 +352,7 @@ button:active{
     .projects .item{
         flex-direction: column;
         justify-content: space-around;
-    
+
     }
     .projects{
         padding: 10rem 0;
@@ -370,10 +370,10 @@ button:active{
 
     }
     .projects .item:nth-child(even) .left{
-        margin-left: 0;   
+        margin-left: 0;
     }
 
-    
+
 }
 @media only screen and (max-width:450px){
     .projects .item .right buttons {
@@ -419,7 +419,7 @@ button:active{
     grid-gap: 1rem;
     padding: 1rem 80px;
     font-size: 1.2rem;
-      
+
 }
 .skill-box{
     padding: 1rem;
@@ -479,7 +479,7 @@ button:active{
     width: 50%;
     height: 90px;
     background: rgba(100, 100, 100, 0.5);
-    border-radius: 45px 0 0 45px;  
+    border-radius: 45px 0 0 45px;
 }
 
 .skill-title h3{
@@ -512,7 +512,7 @@ button:active{
     position: absolute;
     left: 25%;
     text-align: center;
-    
+
 }
 
 
@@ -556,7 +556,7 @@ button:active{
     background-image: url('./images/box-3.jpg');
 }
 
-.box-1 span, 
+.box-1 span,
 .box-2 span,
 .box-3 span{
     width: 40px;
